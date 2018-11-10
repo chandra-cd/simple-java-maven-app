@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'mvn -B -DskipTests clean package' 
+                sh '/Users/chalkdigital/software/apache-maven-3.3.3/bin/mvn -B -DskipTests clean package' 
             }
         }
     }
